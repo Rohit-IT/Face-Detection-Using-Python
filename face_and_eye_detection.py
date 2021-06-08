@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-#In this video you will also see, light intensity affects a lot
+
 
 face_classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_classifier = cv2.CascadeClassifier('haarcascade_eye.xml')
